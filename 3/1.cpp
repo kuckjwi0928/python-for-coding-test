@@ -7,7 +7,7 @@ int cnt = 0;
 int coinTypes[4] = {500, 100, 50, 10};
 
 int main() {
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < sizeof(coinTypes) / sizeof(int); i++) {
         int coin = coinTypes[i];
         cnt += n / coin;
         n %= coin;

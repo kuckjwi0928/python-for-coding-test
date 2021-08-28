@@ -12,7 +12,7 @@ int main() {
     // 한 줄씩 입력 받아 확인하기
     for (int i = 0; i < n; i++) {
         // 현재 줄에서 '가장 작은 수' 찾기
-        int min_value = 10001;
+        int min_value = INT_MAX;
         for (int j = 0; j < m; j++) {
             int x;
             cin >> x;

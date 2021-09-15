@@ -10,6 +10,12 @@
         "iterator": "cpp",
         "memory": "cpp",
         "utility": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "random": "cpp",
+        "map": "cpp",
+        "stack": "cpp",
+        "queue": "cpp"
     }
 }
